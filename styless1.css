@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.container-principal {
+    display: flex;
+    
+
+}
+
+
+
+#instagram-logo {
+    width: 200px;
+}
+
+.section-login {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 3px solid #EBEDF0;
+    width: 378px;
+    height: 498px;
+    gap: 30px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.links-login {
+    text-decoration: none;
+}
+
+input {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 50px;
+    border: #EBEDF0;
+    text-align: start;
+    border-left: 15px;
+    border: 3px solid #EBEDF0;
+    padding: 13px;
+}
+
+button {
+    background-color: rgb(119, 171, 216);
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 35px;
+    text-decoration: dotted;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#img-facebook {
+    height: 30px;
+}
+
+.traço-ou {
+    opacity: 0.5;
+}
+
+.new-account {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 3px solid #EBEDF0;
+    width: 378px;
+    height: 40px;
+    gap: 30px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.obtain-apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 378px;
+    height: 40px;
+    margin-left: 30px;
+}
+.paragrafo-obtain {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.image-google {
+    width: 150px;
+    height: 50px;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.links-footer {
+    text-decoration: none;
+    font-size: 13px;
+    color: #9c9c9cb5;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.footer-configuration {
+    margin-right: 15px;
+}
+
+select {
+    border: none;
+    color: #9c9c9cb5;
+    background-color: whitesmoke;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
