@@ -73,6 +73,17 @@ button {
     height: 30px;
 }
 
+.img-insta {
+    width: 500px;
+}
+
+.img-insta1 {
+    position: absolute;
+    left: 780px;
+    top: 131px;
+    height: 582px;
+}
+
 .traço-ou {
     opacity: 0.5;
 }
