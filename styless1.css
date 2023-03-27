@@ -17,7 +17,7 @@ body {
 
 .container-principal {
     display: flex;
-    
+    margin-right: 300px;
 
 }
 
@@ -73,15 +73,29 @@ button {
     height: 30px;
 }
 
-.img-insta {
+.img-insta  {
     width: 500px;
 }
 
 .img-insta1 {
-    position: absolute;
-    left: 780px;
-    top: 131px;
+    position: relative;
+    left: 439px;
+    top: 28px;
     height: 582px;
+    opacity: 0;
+}
+
+.img-insta2 {
+    position: relative;
+    left: 706px;
+    top: 28px;
+    height: 582px;
+    opacity: 0;
+}
+
+.selected {
+
+    opacity: 1;
 }
 
 .traço-ou {
